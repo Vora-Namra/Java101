@@ -23,7 +23,7 @@ public int operation(int num1,int num2 ,String operation) {
         System.out.println("Enter 2nd Number: ");
         int num2 = sc.nextInt();
         System.out.println("Enter operation as +, -, *, /: ");
-        String operation = sc.next();
+        String operation = sc.next ();
         ScanCalc obj = new ScanCalc();  
         System.out.println("Result: " + obj.operation(num1, num2, operation));
     }
